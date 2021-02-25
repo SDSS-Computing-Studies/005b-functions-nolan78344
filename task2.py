@@ -7,5 +7,8 @@ The return value is the largest value in the list
 (2 points)
 """
 
-def largest (a,b)
-
+def largest (list):
+    length = len(list)
+    list.sort()
+    largest = list[length - 1]
+    return largest
