@@ -6,10 +6,11 @@ def sum(a,b):
     # b : float
     # return value: returns the sum of the 2 numbers
 
-
-
+a = 3
+b = 4 
+sum == 7
 #this should return a value of 7
-x = sum(3,4)
+x = sum(3,4) == 7
 
 #this should return a value of 12.5
-y = sum(11,1.5)
+y = sum(11,1.5) == 12.5
