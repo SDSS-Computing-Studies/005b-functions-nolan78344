@@ -9,3 +9,6 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 
+def distance(x,y):
+    x = ("123", "456")
+    y = ("123", "456")
