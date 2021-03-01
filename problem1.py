@@ -8,12 +8,15 @@ Return the missing side
 (2 points)
 """
 
-
+import math
 def hypotenuse(a,b,c):
-    a = float(input("a"))
-    b = float(input("b"))
-    (c**2) = (a**2 + b**2)
-        if c > a and b
+    if c == True:
+        (a**2 + b**2) = math.sqrt(c) 
+        return c
+    elif c == False:
+        if a > b:
+            (a**2 - b**2) = math.sqrt(c) 
             return c
-        else:
-            if a > b:
+        elif b > a:
+            (b**2 - a**2) = math.sqrt(c) 
+            return c
