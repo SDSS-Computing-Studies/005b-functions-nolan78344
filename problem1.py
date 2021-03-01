@@ -9,7 +9,7 @@ Return the missing side
 """
 
 
-def hypotenuse(a,b):
+def hypotenuse(a,b,c):
     from math import sqrt
     print("Input lengths of shorter triangle sides:")
     a = float(input("a: "))

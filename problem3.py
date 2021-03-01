@@ -8,7 +8,7 @@ into another number.
 Example: The factors of 10 are 1, 2, 5, 10
 (2 points)
 """
-def hypotenuse(a,b):
+def hypotenuse(a,b,c):
     from math import sqrt
     print("Input lengths of shorter triangle sides:")
     a = float(input("a: "))
