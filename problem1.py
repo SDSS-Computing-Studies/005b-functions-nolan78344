@@ -10,10 +10,10 @@ Return the missing side
 
 
 def hypotenuse(a,b,c):
-    from math import sqrt
-    print("Input lengths of shorter triangle sides:")
-    a = float(input("a: "))
-    b = float(input("b: "))
-
-    c = sqrt(a**2 + b**2)
-    print("The length of the hypotenuse is", c )
+    a = float(input("a"))
+    b = float(input("b"))
+    (c**2) = (a**2 + b**2)
+        if c > a and b
+            return c
+        else:
+            if a > b:
