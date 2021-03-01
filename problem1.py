@@ -12,14 +12,14 @@ import math
 def hypotenuse(a,b,c):
     if c == True:
         x = (a**2 + b**2)
-        math.sqrt(x)
+        x = math.sqrt(x)
         return x
     elif c == False:
         if a > b:
             x = (a**2 - b**2)
-            math.sqrt(x) 
+            x = math.sqrt(x) 
             return x
         elif b > a:
             x = (b**2 - a**2)
-            math.sqrt(x) 
+            x = math.sqrt(x) 
             return x
