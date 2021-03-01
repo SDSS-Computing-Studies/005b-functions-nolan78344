@@ -11,12 +11,15 @@ Return the missing side
 import math
 def hypotenuse(a,b,c):
     if c == True:
-        (a**2 + b**2) = math.sqrt(c) 
-        return c
+        x = (a**2 + b**2)
+        math.sqrt(x)
+        return x
     elif c == False:
         if a > b:
-            (a**2 - b**2) = math.sqrt(c) 
-            return c
+            x = (a**2 - b**2)
+            math.sqrt(x) 
+            return x
         elif b > a:
-            (b**2 - a**2) = math.sqrt(c) 
-            return c
+            x = (b**2 - a**2)
+            math.sqrt(x) 
+            return x
