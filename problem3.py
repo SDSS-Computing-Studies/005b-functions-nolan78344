@@ -11,10 +11,8 @@ Example: The factors of 10 are 1, 2, 5, 10
 def factors(x):
     for i in range(1 , x + 1):
         if x%i == 0:
-            print(i)
+            return x
 
-x = 12
-factors(x)
 #x = perimeter([1,4,2,5,2,65,3])
 #print(x)
 
